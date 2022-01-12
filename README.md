@@ -4,7 +4,7 @@
 
 ## 经典分类网络
 | 发表时间 | 标题 | 图片 | 贡献 |
-| -- | -- | -- | -- | -- |
+| -- | -- | -- | -- |
 | 2012 |[AlexNet](https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)| <img src='Imgs/AlexNet.png' width=200px> | 深度学习的开篇之作 |
 | 2013 |[ZFNet](https://arxiv.org/pdf/1311.2901v3.pdf) | <img src='Imgs/ZFNet.png' width=200px> | |
 | 2014 |[VGGNet](https://arxiv.org/pdf/1409.1556.pdf) | <img src='Imgs/VGGNet.png' width=200px> | |
