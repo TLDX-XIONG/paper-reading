@@ -33,17 +33,26 @@
 ## 语义分割
 | 完成 | 发表时间 | 标题 | 封面 |贡献 |
 | -- | -- | -- | -- | -- |
+| | 2014 | [FCN](https://arxiv.org/pdf/1411.4038.pdf) | <img src='Imgs/FCN.png' width=200px> | |
+| | 2014 | [DeepLab V1]() | <img src='Imgs/DeepLabV1.png' width=200px> | |
+| | 2015 | [U-Net]() | <img src='Imgs/U-Net.png' width=200px> | |
+| | 2015 | [DeconvNet]() | <img src='Imgs/DeconvNet.png' width=200px> | |
+| | 2015 | [SegNet]() | <img src='Imgs/SegNet.png' width=200px> | |
+| | 2016 | [DeepLabV2]() | <img src='Imgs/DeepLabV2.png' width=200px> | |
+| | 2017 | [DeepLabV3]() | <img src='Imgs/DeepLabV3.png' width=200px> | |
+| | 2018 | [DeepLabV4]() | <img src='Imgs/DeepLabV4.png' width=200px> | |
+
 
 ## 轻量化网络
 | 完成 | 发表时间 | 标题 | 封面 |贡献 |
 | -- | -- | -- | -- | -- |
-| | | [SqueezeNet]() | <img src='Imgs/SqueezeNet.png' width=200px> | |
-| ✅ | | [MobileNet]() | <img src='Imgs/MobileNet.png' width=200px> | |
-| ✅ | | [MobileNet V2]() | <img src='Imgs/MobileNet-V2.png' width=200px> | |
-| ✅ | | [MobileNet V3]() | <img src='Imgs/MobileNet-V3.png' width=200px> | |
-| ✅ | | [ShuffleNet] | | | <img src='Imgs/ShuffleNet.png' width=200px> | 使用了分组卷积和通道 shuffle，减少参数量的同时保证了精度 |
-| ✅ | | [ShuffleNet V2]() | <img src='Imgs/ShuffleNet-V2.png' width=200px> | |
-| | | [EfficentNet]() | <img src='Imgs/EfficientNet.png' width=200px> | |
+| | 2016 | [SqueezeNet]() | <img src='Imgs/SqueezeNet.png' width=200px> | |
+| ✅ | 2017 | [MobileNet](https://arxiv.org/pdf/1704.04861.pdf) | <img src='Imgs/MobileNet.png' width=200px> | |
+| ✅ | 2018 | [MobileNet V2](https://arxiv.org/pdf/1801.04381.pdf) | <img src='Imgs/MobileNetV2.png' width=200px> | |
+| ✅ | 2019 | [MobileNet V3](https://arxiv.org/pdf/1905.02244.pdf) | <img src='Imgs/MobileNetV3.png' width=200px> | |
+| ✅ | 2017 | [ShuffleNet](https://arxiv.org/pdf/1707.01083v2.pdf) | <img src='Imgs/ShuffleNet.png' width=200px> | 使用了分组卷积和通道 shuffle，减少参数量的同时保证了精度 |
+| ✅ | 2018 | [ShuffleNet V2](https://arxiv.org/pdf/1807.11164v1.pdf) | <img src='Imgs/ShuffleNetV2.png' width=200px> | |
+| | 2019 | [EfficentNet](https://arxiv.org/pdf/1905.11946v5.pdf) | <img src='Imgs/EfficientNet.png' width=200px> | |
 
 ## 深度学习使用的 Tricks
 | 完成 | 发表时间 | 标题 | 封面 |贡献 |
