@@ -35,19 +35,19 @@
 | 完成 | 发表时间 | 标题 | 封面 |贡献 |
 | -- | -- | -- | -- | -- |
 | | 2014 | [FCN](https://arxiv.org/pdf/1411.4038.pdf) | <img src='Imgs/FCN.png' width=200px> | |
-| | 2014 | [DeepLab V1]() | <img src='Imgs/DeepLabV1.png' width=200px> | |
-| | 2015 | [U-Net]() | <img src='Imgs/U-Net.png' width=200px> | |
-| | 2015 | [DeconvNet]() | <img src='Imgs/DeconvNet.png' width=200px> | |
-| | 2015 | [SegNet]() | <img src='Imgs/SegNet.png' width=200px> | |
-| | 2016 | [DeepLabV2]() | <img src='Imgs/DeepLabV2.png' width=200px> | |
-| | 2017 | [DeepLabV3]() | <img src='Imgs/DeepLabV3.png' width=200px> | |
-| | 2018 | [DeepLabV4]() | <img src='Imgs/DeepLabV4.png' width=200px> | |
+| | 2014 | [DeepLab V1](https://arxiv.org/pdf/1412.7062.pdf) | <img src='Imgs/DeepLabV1.png' width=200px> | |
+| | 2015 | [U-Net](https://arxiv.org/pdf/1505.04597.pdf) | <img src='Imgs/U-Net.png' width=200px> | |
+| | 2015 | [DeconvNet](https://arxiv.org/pdf/1505.04366.pdf) | <img src='Imgs/DeconvNet.png' width=200px> | |
+| | 2015 | [SegNet](https://arxiv.org/pdf/1511.00561.pdf) | <img src='Imgs/SegNet.png' width=200px> | |
+| | 2016 | [DeepLabV2](https://arxiv.org/pdf/1606.00915.pdf) | <img src='Imgs/DeepLabV2.png' width=200px> | |
+| | 2017 | [DeepLabV3](https://arxiv.org/pdf/1706.05587.pdf) | <img src='Imgs/DeepLabV3.png' width=200px> | |
+| | 2018 | [DeepLabV4](https://arxiv.org/pdf/1802.02611.pdf) | <img src='Imgs/DeepLabV4.png' width=200px> | |
 
 
 ## 轻量化网络
 | 完成 | 发表时间 | 标题 | 封面 |贡献 |
 | -- | -- | -- | -- | -- |
-| | 2016 | [SqueezeNet]() | <img src='Imgs/SqueezeNet.png' width=200px> | |
+| | 2016 | [SqueezeNet](https://arxiv.org/pdf/1602.07360.pdf) | <img src='Imgs/SqueezeNet.png' width=200px> | |
 | ✅ | 2017 | [MobileNet](https://arxiv.org/pdf/1704.04861.pdf) | <img src='Imgs/MobileNet.png' width=200px> | 提出了深度可分离卷积搭建轻量化网络 |
 | ✅ | 2018 | [MobileNet V2](https://arxiv.org/pdf/1801.04381.pdf) | <img src='Imgs/MobileNetV2.png' width=200px> | 使用深度可分离卷积；Linear Bottlenecks；Inverted residuals |
 | ✅ | 2019 | [MobileNet V3](https://arxiv.org/pdf/1905.02244.pdf) | <img src='Imgs/MobileNetV3.png' width=200px> | |
