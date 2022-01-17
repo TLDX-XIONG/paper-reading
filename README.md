@@ -1,8 +1,9 @@
 # 深度学习论文阅读
 对已经读过的论文和将要读的论文进行梳理，以便自己总结。
 
+## 计算机视觉
 
-## 经典分类网络
+### 经典分类网络
 | 完成 | 发表时间 | 标题 | 封面 | 贡献 |
 | -- | -- | -- | -- | -- |
 | ✅ | 2012 |[AlexNet](https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)| <img src='Imgs/AlexNet.png' width=200px>  | 深度学习的开篇之作，第一次将深度学习技术引入图像分类中。在ImageNet分类竞赛中远远领先第二名。使用了两块显卡训练，隐式地使用了分组卷积，第一次提出了一些概念(多GPU，分组卷积，最大池化，ReLU，Dropout)，奠定了现代卷积网络的架构。|
@@ -15,8 +16,10 @@
 |  | 2016 | [DenseNet](https://arxiv.org/pdf/1608.06993v5.pdf) | <img src='Imgs/DenseNet.png' width=200px> | 在残差连接时，进行通道的 Concatenat 而不是进行简单的相加 |
 | | 2017 |[ResNext](https://arxiv.org/pdf/1611.05431.pdf) | <img src='Imgs/ResNext.png' width=200px> | 在 ResNet基础上引入了分组卷积，这样在相同参数量的情况下，ResNext 可以使用更大的通道，获得更多的特征图。 |
 | | 2017 | [SENet](https://arxiv.org/abs/1709.01507v4) | <img src='Imgs/SENet.png' width=200px> | 使用了 chanel attention，使其能更加关注感兴趣，有用的通道特征。 |
+| | 2020 | [ViT](https://arxiv.org/pdf/2010.11929v2.pdf) | <img src='Imgs/ViT.png' width=200px> | |
+| | 2021 | [ConvNext](https://arxiv.org/pdf/2201.03545v1.pdf) | <img src='Imgs/ConvNeXt.png' width=200px> | |
 
-## 目标检测
+### 目标检测
 | 完成 | 发表时间 | 标题 | 封面 |贡献 |
 | -- | -- | -- | -- | -- |
 | | 2013 |[R-CNN](https://arxiv.org/pdf/1311.2524v5.pdf) | <img src='Imgs/R-CNN.png' width=200px> | |
@@ -28,10 +31,10 @@
 | | 2017 |[Mask R-CNN](https://arxiv.org/pdf/1703.06870v3.pdf) | <img src='Imgs/Mask-R-CNN.png' width=200px> | |
 | | 2017 |[RetianNet](https://arxiv.org/pdf/1708.02002.pdf) | <img src='Imgs/RetainNet.png' width=200px> |
 | ✅ | 2018 |[YOLO V3](https://arxiv.org/pdf/1804.02767v1.pdf) | <img src='Imgs/YOLOV3.png' width=200px> | |
-| ✅ | 2020 |[YOLO V4](https://arxiv.org/pdf/2004.10934.pdf) | <img src='Imgs/YOLOV4.png' width=200px> | 对各种 Backbone 和 Tricks 进行梳理和实验，试验了当时所有的 Tricks。|
+| ✅ | 2020 |[YOLO V4](https://arxiv.org/pdf/2004.10934.pdf) | <img src='Imgs/YOLOV4.png' width=200px> | 对各种 Backbone 和 Tricks 进行梳理和实验，试验了当时所有的 Tricks。 | 
+| | 2021 | [Swin Transformer](https://arxiv.org/pdf/2103.14030v2.pdf) | <img src='Imgs/Swin_Transformer.png' width=200px> | |
 
-
-## 语义分割
+### 语义分割
 | 完成 | 发表时间 | 标题 | 封面 |贡献 |
 | -- | -- | -- | -- | -- |
 | | 2014 | [FCN](https://arxiv.org/pdf/1411.4038.pdf) | <img src='Imgs/FCN.png' width=200px> | |
@@ -44,7 +47,7 @@
 | | 2018 | [DeepLabV4](https://arxiv.org/pdf/1802.02611.pdf) | <img src='Imgs/DeepLabV4.png' width=200px> | |
 
 
-## 轻量化网络
+### 轻量化网络
 | 完成 | 发表时间 | 标题 | 封面 |贡献 |
 | -- | -- | -- | -- | -- |
 | | 2016 | [SqueezeNet](https://arxiv.org/pdf/1602.07360.pdf) | <img src='Imgs/SqueezeNet.png' width=200px> | |
@@ -55,16 +58,19 @@
 | ✅ | 2018 | [ShuffleNet V2](https://arxiv.org/pdf/1807.11164v1.pdf) | <img src='Imgs/ShuffleNetV2.png' width=200px> | |
 | | 2019 | [EfficentNet](https://arxiv.org/pdf/1905.11946v5.pdf) | <img src='Imgs/EfficientNet.png' width=200px> | |
 
-## 深度学习使用的 Tricks
+### 深度学习使用的 Tricks
 | 完成 | 发表时间 | 标题 | 封面 |贡献 |
 | -- | -- | -- | -- | -- |
 | | 2015 | [Batch Normalization](https://arxiv.org/pdf/1502.03167.pdf) | <img src='Imgs/BN.png' width=200px> | |
 
 
-## 重识别
+### 重识别
 | 完成 | 发表时间 | 标题 | 封面 |贡献 |
 | -- | -- | -- | -- | -- |
 
-## 其它
+### 其它
 | 完成 | 发表时间 | 标题 | 封面 |贡献 |
 | -- | -- | -- | -- | -- |
+
+
+## 自然语言处理
