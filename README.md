@@ -12,12 +12,27 @@
 | ✅ | 2014 |[GoogLeNet(Inception V1)](https://arxiv.org/pdf/1409.4842.pdf) | <img src='Imgs/GoogLeNet.png' width=200px> | 提出了在同一层利用多个不同尺度的卷积提取特征，再将得到的特征拼接起来传入下一层作为输入 |
 | | 2015 |[Inception V2-V3](https://arxiv.org/pdf/1512.00567.pdf) | <img src='Imgs/InceptionV2-V3.png' width=200px> | |
 | ✅ | 2015 |[ResNet](https://arxiv.org/pdf/1512.03385.pdf) | <img src='Imgs/ResNet.png' width=200px> | 提出了残差结构，解决了卷积网络无限堆叠卷积层产生的性能退化问题。使用残差链接能够很好的将深层的 loss 传至浅层，解决了因为链式法则带来的梯度弥散问题。 |
-| | 2016 |[Inception V4](https://arxiv.org/pdf/1602.07261.pdf) | <img src='Imgs/InceptionV4.png' width=200px> |
-|  | 2016 | [DenseNet](https://arxiv.org/pdf/1608.06993v5.pdf) | <img src='Imgs/DenseNet.png' width=200px> | 在残差连接时，进行通道的 Concatenat 而不是进行简单的相加 |
-| ✅ | 2017 |[ResNext](https://arxiv.org/pdf/1611.05431.pdf) | <img src='Imgs/ResNext.png' width=200px> | 在 ResNet基础上引入 split-transform-merge 结构(等价于分组卷积)，同时使用 module block，超参数更少了；在相同参数量的情况下，ResNext 可以使用更大的通道，获得更多的特征图。|
+| | 2016 | [Inception V4](https://arxiv.org/pdf/1602.07261.pdf) | <img src='Imgs/InceptionV4.png' width=200px> |
+| | 2016 | [DenseNet](https://arxiv.org/pdf/1608.06993v5.pdf) | <img src='Imgs/DenseNet.png' width=200px> | 在残差连接时，进行通道的 Concatenat 而不是进行简单的相加 |
+| | 2016 | [Xception](https://arxiv.org/pdf/1610.02357v3.pdf) | <img src='Imgs/Xception.png' width=200px> | |
+| ✅ | 2017 |[ResNext](https://arxiv.org/pdf/1611.05431.pdf) | <img src='Imgs/ResNext.png' width=200px> | 在 ResNet基础上引入 split-transform-merge 结构(等价于分组卷积)，同时使用 module block，使用更少的超参数；在相同参数量的情况下，ResNext 可以使用更大的通道，获得更多的特征图。|
 | | 2017 | [SENet](https://arxiv.org/abs/1709.01507v4) | <img src='Imgs/SENet.png' width=200px> | 使用了 chanel attention，使其能更加关注感兴趣，有用的通道特征。 |
 | | 2020 | [ViT](https://arxiv.org/pdf/2010.11929v2.pdf) | <img src='Imgs/ViT.png' width=200px> | |
 | | 2021 | [ConvNext](https://arxiv.org/pdf/2201.03545v1.pdf) | <img src='Imgs/ConvNeXt.png' width=200px> | |
+
+
+### 轻量化网络
+| 完成 | 发表时间 | 标题 | 封面 |贡献 |
+| -- | -- | -- | -- | -- |
+| | 2016 | [SqueezeNet](https://arxiv.org/pdf/1602.07360.pdf) | <img src='Imgs/SqueezeNet.png' width=200px> | |
+| ✅ | 2017 | [MobileNet](https://arxiv.org/pdf/1704.04861.pdf) | <img src='Imgs/MobileNet.png' width=200px> | 提出了深度可分离卷积搭建轻量化网络 |
+| ✅ | 2018 | [MobileNet V2](https://arxiv.org/pdf/1801.04381.pdf) | <img src='Imgs/MobileNetV2.png' width=200px> | 使用深度可分离卷积；Linear Bottlenecks；Inverted residuals |
+
+| ✅ | 2017 | [ShuffleNet](https://arxiv.org/pdf/1707.01083v2.pdf) | <img src='Imgs/ShuffleNet.png' width=200px> | 使用了分组卷积和通道 shuffle，减少参数量的同时保证了精度 |
+| ✅ | 2018 | [ShuffleNet V2](https://arxiv.org/pdf/1807.11164v1.pdf) | <img src='Imgs/ShuffleNetV2.png' width=200px> | |
+| | 2019 | [MobileNet V3](https://arxiv.org/pdf/1905.02244.pdf) | <img src='Imgs/MobileNetV3.png' width=200px> | |
+| | 2019 | [EfficentNet](https://arxiv.org/pdf/1905.11946v5.pdf) | <img src='Imgs/EfficientNet.png' width=200px> | |
+
 
 ### 目标检测
 | 完成 | 发表时间 | 标题 | 封面 |贡献 |
@@ -47,16 +62,7 @@
 | | 2018 | [DeepLabV4](https://arxiv.org/pdf/1802.02611.pdf) | <img src='Imgs/DeepLabV4.png' width=200px> | |
 
 
-### 轻量化网络
-| 完成 | 发表时间 | 标题 | 封面 |贡献 |
-| -- | -- | -- | -- | -- |
-| | 2016 | [SqueezeNet](https://arxiv.org/pdf/1602.07360.pdf) | <img src='Imgs/SqueezeNet.png' width=200px> | |
-| ✅ | 2017 | [MobileNet](https://arxiv.org/pdf/1704.04861.pdf) | <img src='Imgs/MobileNet.png' width=200px> | 提出了深度可分离卷积搭建轻量化网络 |
-| ✅ | 2018 | [MobileNet V2](https://arxiv.org/pdf/1801.04381.pdf) | <img src='Imgs/MobileNetV2.png' width=200px> | 使用深度可分离卷积；Linear Bottlenecks；Inverted residuals |
-| ✅ | 2019 | [MobileNet V3](https://arxiv.org/pdf/1905.02244.pdf) | <img src='Imgs/MobileNetV3.png' width=200px> | |
-| ✅ | 2017 | [ShuffleNet](https://arxiv.org/pdf/1707.01083v2.pdf) | <img src='Imgs/ShuffleNet.png' width=200px> | 使用了分组卷积和通道 shuffle，减少参数量的同时保证了精度 |
-| ✅ | 2018 | [ShuffleNet V2](https://arxiv.org/pdf/1807.11164v1.pdf) | <img src='Imgs/ShuffleNetV2.png' width=200px> | |
-| | 2019 | [EfficentNet](https://arxiv.org/pdf/1905.11946v5.pdf) | <img src='Imgs/EfficientNet.png' width=200px> | |
+
 
 ### 深度学习使用的 Tricks
 | 完成 | 发表时间 | 标题 | 封面 |贡献 |
