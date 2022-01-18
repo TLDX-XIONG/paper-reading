@@ -7,7 +7,7 @@
 | 完成 | 发表时间 | 标题 | 封面 | 贡献 |
 | -- | -- | -- | -- | -- |
 | ✅ | 2012 |[AlexNet](https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)| <img src='Imgs/AlexNet.png' width=200px>  | 深度学习的开篇之作，第一次将深度学习技术引入图像分类中。在ImageNet分类竞赛中远远领先第二名。使用了两块显卡训练，隐式地使用了分组卷积，第一次提出了一些概念(多GPU，分组卷积，最大池化，ReLU，Dropout)，奠定了现代卷积网络的架构。|
-| | 2013 |[ZFNet](https://arxiv.org/pdf/1311.2901v3.pdf) | <img src='Imgs/ZFNet.png' width=200px> | 最大的亮点是利用反卷积可视化技术对卷积核可视化，增加了网络的可解释性。 |
+| ✅ | 2013 |[ZFNet](https://arxiv.org/pdf/1311.2901v3.pdf) | <img src='Imgs/ZFNet.png' width=200px> | 最大的亮点是利用反卷积可视化技术对卷积核可视化，将特征映射到输入像素空间，增加了网络的可解释性；特征存在层次性，层次越深，特征更具有全局信息，不变性越强。|
 | ✅ | 2014 |[VGGNet](https://arxiv.org/pdf/1409.1556.pdf) | <img src='Imgs/VGGNet.png' width=200px> |搭建了一个更深的网络，提出了使用多个小卷积核能够与大卷积核获得相同的感受野，同时能够显著减少参数量。提出了卷积 Block 的概念，通道呈二进制的增加(更能利用计算资源) |
 | ✅ | 2014 |[GoogLeNet(Inception V1)](https://arxiv.org/pdf/1409.4842.pdf) | <img src='Imgs/GoogLeNet.png' width=200px> | 提出了在同一层利用多个不同尺度的卷积提取特征，再将得到的特征拼接起来传入下一层作为输入 |
 | | 2015 |[Inception V2-V3](https://arxiv.org/pdf/1512.00567.pdf) | <img src='Imgs/InceptionV2-V3.png' width=200px> | |
