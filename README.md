@@ -16,7 +16,7 @@
 | ✅ | 2016 | [DenseNet](https://arxiv.org/pdf/1608.06993v5.pdf) | <img src='Imgs/DenseNet.png' width=200px> | 在残差连接时，进行通道的 Concatenat 而不是进行简单的相加 |
 | ✅ | 2016 | [Xception](https://arxiv.org/pdf/1610.02357v3.pdf) | <img src='Imgs/Xception.png' width=200px> | 在之前模型基础上使用 depthwise separable 替换传统卷积 |
 | ✅ | 2017 |[ResNext](https://arxiv.org/pdf/1611.05431.pdf) | <img src='Imgs/ResNext.png' width=200px> | 在 ResNet基础上引入 split-transform-merge 结构(等价于分组卷积)，同时使用 module block，使用更少的超参数；在相同参数量的情况下，ResNext 可以使用更大的通道，获得更多的特征图。|
-| | 2017 | [SENet](https://arxiv.org/abs/1709.01507v4) | <img src='Imgs/SENet.png' width=200px> | 使用了 chanel attention，使其能更加关注感兴趣，有用的通道特征。 |
+| | 2017 | [SENet](https://arxiv.org/abs/1709.01507v4) | <img src='Imgs/SENet.png' width=200px> | 提出了 SE block(使用 chanel attention)，使其能更加关注感兴趣、有用的通道特征；可以直接在以前的经典网络中添加 SE blocks |
 | | 2020 | [ViT](https://arxiv.org/pdf/2010.11929v2.pdf) | <img src='Imgs/ViT.png' width=200px> | |
 | | 2021 | [ConvNext](https://arxiv.org/pdf/2201.03545v1.pdf) | <img src='Imgs/ConvNeXt.png' width=200px> | |
 
@@ -25,9 +25,8 @@
 | 完成 | 发表时间 | 标题 | 封面 |贡献 |
 | -- | -- | -- | -- | -- |
 | | 2016 | [SqueezeNet](https://arxiv.org/pdf/1602.07360.pdf) | <img src='Imgs/SqueezeNet.png' width=200px> | |
-| ✅ | 2017 | [MobileNet](https://arxiv.org/pdf/1704.04861.pdf) | <img src='Imgs/MobileNet.png' width=200px> | 提出了深度可分离卷积搭建轻量化网络 |
+| ✅ | 2017 | [MobileNet](https://arxiv.org/pdf/1704.04861.pdf) | <img src='Imgs/MobileNet.png' width=200px> | 使用深度可分离卷积搭建轻量化网络 |
 | ✅ | 2018 | [MobileNet V2](https://arxiv.org/pdf/1801.04381.pdf) | <img src='Imgs/MobileNetV2.png' width=200px> | 使用深度可分离卷积；Linear Bottlenecks；Inverted residuals |
-
 | ✅ | 2017 | [ShuffleNet](https://arxiv.org/pdf/1707.01083v2.pdf) | <img src='Imgs/ShuffleNet.png' width=200px> | 使用了分组卷积和通道 shuffle，减少参数量的同时保证了精度 |
 | ✅ | 2018 | [ShuffleNet V2](https://arxiv.org/pdf/1807.11164v1.pdf) | <img src='Imgs/ShuffleNetV2.png' width=200px> | |
 | | 2019 | [MobileNet V3](https://arxiv.org/pdf/1905.02244.pdf) | <img src='Imgs/MobileNetV3.png' width=200px> | |
