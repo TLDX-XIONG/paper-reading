@@ -16,7 +16,7 @@
 | ✅ | 2016 | [DenseNet](https://arxiv.org/pdf/1608.06993v5.pdf) | <img src='Imgs/DenseNet.png' width=200px> | 在残差连接时，进行通道的 Concatenat 而不是进行简单的相加 |
 | ✅ | 2016 | [Xception](https://arxiv.org/pdf/1610.02357v3.pdf) | <img src='Imgs/Xception.png' width=200px> | 在之前模型基础上使用 depthwise separable 替换传统卷积 |
 | ✅ | 2017 |[ResNext](https://arxiv.org/pdf/1611.05431.pdf) | <img src='Imgs/ResNext.png' width=200px> | 在 ResNet基础上引入 split-transform-merge 结构(等价于分组卷积)，同时使用 module block，使用更少的超参数；在相同参数量的情况下，ResNext 可以使用更大的通道，获得更多的特征图。|
-| | 2017 | [SENet](https://arxiv.org/abs/1709.01507v4) | <img src='Imgs/SENet.png' width=200px> | 提出了 SE block(使用 chanel attention)，使其能更加关注感兴趣、有用的通道特征；可以直接在以前的经典网络中添加 SE blocks |
+| | 2017 | [SENet](https://arxiv.org/abs/1709.01507v4) | <img src='Imgs/SENet.png' width=200px> | 提出了 SE block(使用 chanel attention)，使其能更加关注感兴趣、有用的通道特征；可以直接在以前的经典网络中添加 SE blocks；做了很多消融实验验证其有效性 |
 | | 2020 | [ViT](https://arxiv.org/pdf/2010.11929v2.pdf) | <img src='Imgs/ViT.png' width=200px> | |
 | | 2021 | [ConvNext](https://arxiv.org/pdf/2201.03545v1.pdf) | <img src='Imgs/ConvNeXt.png' width=200px> | |
 
