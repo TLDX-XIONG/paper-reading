@@ -37,7 +37,8 @@
 | 完成 | 发表时间 | 标题 | 封面 |贡献 |
 | -- | -- | -- | -- | -- |
 | | 2013 |[R-CNN](https://arxiv.org/pdf/1311.2524v5.pdf) | <img src='Imgs/R-CNN.png' width=200px> | 深度学习目标检测经典开山之作。提出Reigon Proposal；使用CNN提取特征；提出 fine-tuning 策略 |
-| | 2015 |[Fast R-CNN](https://arxiv.org/pdf/1504.08083v2.pdf) | <img src='Imgs/Fast-R-CNN.png' width=200px> | |
+| | 2014 |[SPPNet](https://arxiv.org/pdf/1406.4729v4.pdf) | <img src='Imgs/sppnet.png' width-200px> | |
+| | 2015 |[Fast R-CNN](https://arxiv.org/pdf/1504.08083v2.pdf) | <img src='Imgs/Fast-R-CNN.png' width=200px> | 采用共享卷积特征；RoI pooling；multi-task loss；网络各组件联合训练 |
 | | 2015 |[Faster R-CNN](https://arxiv.org/pdf/1506.01497v3.pdf) | <img src='Imgs/Faster-R-CNN.png' width=200px> |
 | ✅ | 2015 |[YOLO](https://arxiv.org/pdf/1506.02640v5.pdf) | <img src='Imgs/YOLOV1.png' width=200px> | one stage 目标检测经典之作，将目标检测变成一个回归问题。模型直接端到端训练，模型达到实时目标检测水平，同时也保持了较高的性能|
 | | 2015 |[SSD](https://arxiv.org/pdf/1512.02325v5.pdf) | <img src='Imgs/SSD.png' width=200px> | 使用多尺度特征进行检测，使用不同卷积层的特征进行检测 |
