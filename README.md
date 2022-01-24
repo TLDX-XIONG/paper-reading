@@ -43,7 +43,8 @@
 | ✅ | 2015 |[YOLO](https://arxiv.org/pdf/1506.02640v5.pdf) | <img src='Imgs/YOLOV1.png' width=200px> | one stage 目标检测经典之作，将目标检测变成一个回归问题。模型直接端到端训练，达到了实时目标检测水平，同时也保持了较高的性能|
 | ✅ | 2015 |[SSD](https://arxiv.org/pdf/1512.02325v5.pdf) | <img src='Imgs/SSD.png' width=200px> | 使用多尺度特征进行检测，使用不同卷积层的特征进行检测 |
 | ✅ | 2016 |[YOLO V2](https://arxiv.org/pdf/1612.08242v1.pdf) | <img src='Imgs/YOLOV2.png' width=200px> | 在 yolov1 的基础引入了 anchors 同时使用聚类的策略得到先验 anchors 以提高对小目标的识别；融合不同尺度特征；|
-| | 2017 |[RetianNet](https://arxiv.org/pdf/1708.02002.pdf) | <img src='Imgs/RetainNet.png' width=200px> |
+| ✅ | 2016 |[YOLO V2](https://arxiv.org/pdf/1612.08242v1.pdf) | <img src='Imgs/YOLOV2.png' width=200px> | 在 yolov1 的基础引入了 anchors 同时使用聚类的策略得到先验 anchors 以提高对小目标的识别；融合不同尺度特征；|
+| ✅ | 2017 |[RetianNet](https://arxiv.org/pdf/1708.02002.pdf) | <img src='Imgs/RetainNet.png' width=200px> | 提出 focal loss，强调难例的损失，使模型训练时更注重难例；使用了 FPN 网络进行特征融合|
 | | 2017 |[Cascade R-CNN](https://arxiv.org/pdf/1712.00726v1.pdf) | <img src='Imgs/cascade-r-cnn.png' width=200px> | |
 | ✅ | 2018 |[YOLO V3](https://arxiv.org/pdf/1804.02767v1.pdf) | <img src='Imgs/YOLOV3.png' width=200px> | |
 | ✅ | 2020 |[YOLO V4](https://arxiv.org/pdf/2004.10934.pdf) | <img src='Imgs/YOLOV4.png' width=200px> | 对各种 Backbone 和 Tricks 进行梳理和实验，试验了当时所有的 Tricks。 | 
