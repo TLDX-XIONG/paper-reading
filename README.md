@@ -24,7 +24,7 @@
 ### 轻量化网络
 | 完成 | 发表时间 | 标题 | 封面 |贡献 |
 | -- | -- | -- | -- | -- |
-| | 2016 | [SqueezeNet](https://arxiv.org/pdf/1602.07360.pdf) | <img src='Imgs/SqueezeNet.png' width=200px> | |
+| | 2016 | [SqueezeNet](https://arxiv.org/pdf/1602.07360.pdf) | <img src='Imgs/SqueezeNet.png' width=200px> | 用 1 * 1 卷积取代 3 * 3 卷积；减少 3 * 3 卷积的输入通道数；将下采样层尽量后置，使得特征图更大，具有更多的特征 |
 | ✅ | 2017 | [MobileNet](https://arxiv.org/pdf/1704.04861.pdf) | <img src='Imgs/MobileNet.png' width=200px> | 使用深度可分离卷积搭建轻量化网络 |
 | ✅ | 2018 | [MobileNet V2](https://arxiv.org/pdf/1801.04381.pdf) | <img src='Imgs/MobileNetV2.png' width=200px> | 使用深度可分离卷积；Linear Bottlenecks；Inverted residuals |
 | ✅ | 2017 | [ShuffleNet](https://arxiv.org/pdf/1707.01083v2.pdf) | <img src='Imgs/ShuffleNet.png' width=200px> | 使用了分组卷积和通道 shuffle，减少参数量的同时保证了精度 |
