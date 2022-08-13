@@ -48,6 +48,7 @@
 | | 2017 |[Cascade R-CNN](https://arxiv.org/pdf/1712.00726v1.pdf) | <img src='Imgs/cascade-r-cnn.png' width=200px> | |
 | ✅ | 2018 |[YOLO V3](https://arxiv.org/pdf/1804.02767v1.pdf) | <img src='Imgs/YOLOV3.png' width=200px> | |
 | ✅ | 2020 |[YOLO V4](https://arxiv.org/pdf/2004.10934.pdf) | <img src='Imgs/YOLOV4.png' width=200px> | 对各种 Backbone 和 Tricks 进行梳理和实验，试验了当时所有的 Tricks。 | 
+| |      | [ViT]() | | |
 | | 2021 | [Swin Transformer](https://arxiv.org/pdf/2103.14030v2.pdf) | <img src='Imgs/Swin_Transformer.png' width=200px> | |
 
 ### 语义分割
@@ -63,8 +64,17 @@
 | | 2017 | [DeepLabV3](https://arxiv.org/pdf/1706.05587.pdf) | <img src='Imgs/DeepLabV3.png' width=200px> | |
 | | 2018 | [DeepLabV4](https://arxiv.org/pdf/1802.02611.pdf) | <img src='Imgs/DeepLabV4.png' width=200px> | |
 
+### NLP
+| 完成 | 发表时间 | 标题 | 封面 |贡献 |
+| -- | -- | -- | -- | -- |
+| | | [Transformer]() |||
 
 
+### 多模态
+| 完成 | 发表时间 | 标题 | 封面 |贡献 |
+| -- | -- | -- | -- | -- |
+| | | [CLIP]() | | |
+| | | [ViLT]() | | |
 
 ### 深度学习使用的 Tricks
 | 完成 | 发表时间 | 标题 | 封面 |贡献 |
